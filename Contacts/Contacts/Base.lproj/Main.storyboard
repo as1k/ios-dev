@@ -19,6 +19,13 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="765"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No contacts found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FKX-rC-22k">
+                                    <rect key="frame" x="0.0" y="162" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myCell" rowHeight="106" id="HPl-4M-fOp" customClass="CustomCell" customModule="Contacts" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="106"/>
@@ -86,6 +93,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="myTableView" destination="eGa-Fe-a4g" id="gvc-bj-HXf"/>
+                        <outlet property="noContactsLabel" destination="FKX-rC-22k" id="xy5-65-v9l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -13,9 +13,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     private var contactModel = ContactModel()
     
     @IBOutlet weak var myTableView: UITableView!
+    @IBOutlet weak var noContactsLabel: UILabel!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return contactModel.getContacts().count
+        let tableSize = contactModel.getContacts().count
+        if (tableSize == 0) {
+            noContactsLabel.isHidden = false
+        } else {
+            noContactsLabel.isHidden = true
+        }
+        return tableSize
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -35,6 +42,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        noContactsLabel.isHidden = true
         // Do any additional setup after loading the view.
     }
     
