@@ -69,13 +69,4 @@ class ViewController: UIViewController {
     @IBAction func setMinusSign(_ sender: UIButton) {
         displayValue *= -1
     }
-    
-    func hasIndex(stringToSearch str: String, characterToFind chr: Character) -> Bool {
-        for c in str {
-            if c == chr {
-                return true
-            }
-        }
-        return false
-    }
 }
