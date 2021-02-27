@@ -14,6 +14,13 @@
 		B73C540425E0AA1E00481188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73C540325E0AA1E00481188 /* Assets.xcassets */; };
 		B73C540725E0AA1E00481188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73C540525E0AA1E00481188 /* LaunchScreen.storyboard */; };
 		B73C540F25E0AB1600481188 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73C540E25E0AB1600481188 /* CustomView.swift */; };
+		B766A73525E932AD0020A054 /* FigureCollectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B766A73425E932AD0020A054 /* FigureCollectionCollectionViewCell.swift */; };
+		B79F02FD25E91EBB003285AC /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F02FC25E91EBB003285AC /* Circle.swift */; };
+		B79F02FF25E91EC6003285AC /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F02FE25E91EC6003285AC /* Rectangle.swift */; };
+		B79F030125E91F54003285AC /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F030025E91F54003285AC /* Line.swift */; };
+		B79F030325E91F5D003285AC /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F030225E91F5D003285AC /* Triangle.swift */; };
+		B79F030725E923D9003285AC /* PaintModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F030625E923D9003285AC /* PaintModel.swift */; };
+		B79F030925E92C5D003285AC /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F030825E92C5D003285AC /* Pen.swift */; };
 		B7E0036625E29C1000EDC23E /* Figure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E0036525E29C1000EDC23E /* Figure.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +34,13 @@
 		B73C540625E0AA1E00481188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B73C540825E0AA1E00481188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73C540E25E0AB1600481188 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		B766A73425E932AD0020A054 /* FigureCollectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureCollectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		B79F02FC25E91EBB003285AC /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		B79F02FE25E91EC6003285AC /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		B79F030025E91F54003285AC /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		B79F030225E91F5D003285AC /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		B79F030625E923D9003285AC /* PaintModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintModel.swift; sourceTree = "<group>"; };
+		B79F030825E92C5D003285AC /* Pen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pen.swift; sourceTree = "<group>"; };
 		B7E0036525E29C1000EDC23E /* Figure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,12 +74,14 @@
 		B73C53F925E0AA1B00481188 /* PaintApp */ = {
 			isa = PBXGroup;
 			children = (
-				B7E0036425E29C0100EDC23E /* Model */,
-				B7E0036325E29B6400EDC23E /* SupportingFiles */,
-				B73C53FE25E0AA1B00481188 /* ViewController.swift */,
-				B73C540025E0AA1B00481188 /* Main.storyboard */,
 				B73C540825E0AA1E00481188 /* Info.plist */,
+				B7E0036325E29B6400EDC23E /* SupportingFiles */,
+				B7E0036425E29C0100EDC23E /* Model */,
+				B73C540025E0AA1B00481188 /* Main.storyboard */,
+				B73C53FE25E0AA1B00481188 /* ViewController.swift */,
 				B73C540E25E0AB1600481188 /* CustomView.swift */,
+				B79F030625E923D9003285AC /* PaintModel.swift */,
+				B766A73425E932AD0020A054 /* FigureCollectionCollectionViewCell.swift */,
 			);
 			path = PaintApp;
 			sourceTree = "<group>";
@@ -85,6 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				B7E0036525E29C1000EDC23E /* Figure.swift */,
+				B79F02FC25E91EBB003285AC /* Circle.swift */,
+				B79F02FE25E91EC6003285AC /* Rectangle.swift */,
+				B79F030025E91F54003285AC /* Line.swift */,
+				B79F030225E91F5D003285AC /* Triangle.swift */,
+				B79F030825E92C5D003285AC /* Pen.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,11 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79F030925E92C5D003285AC /* Pen.swift in Sources */,
 				B73C53FF25E0AA1B00481188 /* ViewController.swift in Sources */,
 				B73C540F25E0AB1600481188 /* CustomView.swift in Sources */,
 				B73C53FB25E0AA1B00481188 /* AppDelegate.swift in Sources */,
 				B7E0036625E29C1000EDC23E /* Figure.swift in Sources */,
 				B73C53FD25E0AA1B00481188 /* SceneDelegate.swift in Sources */,
+				B79F030125E91F54003285AC /* Line.swift in Sources */,
+				B79F030725E923D9003285AC /* PaintModel.swift in Sources */,
+				B766A73525E932AD0020A054 /* FigureCollectionCollectionViewCell.swift in Sources */,
+				B79F02FD25E91EBB003285AC /* Circle.swift in Sources */,
+				B79F030325E91F5D003285AC /* Triangle.swift in Sources */,
+				B79F02FF25E91EC6003285AC /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

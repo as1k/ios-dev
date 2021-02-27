@@ -16,10 +16,6 @@ var websites: [Website] = [
 var favWebsites: [Website] = [Website]()
 var totalWebsites = [websites, favWebsites]
 
-let LIST_TABLE_VIEW_ID = 0
-let FAVORITES_TABLE_VIEW_ID = 1
-let MASTER_UPDATED = "masterUpdated"
-
 class WebsiteListVC: UITableViewController {
 
     private let openInfoSegueID = "openWebsite"

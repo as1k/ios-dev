@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "07C71B9C-E68D-41C7-837D-6A814756741E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C39A2EC-CE14-4C46-9F19-DF8512928B3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BrowserApp/WebsiteListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "segmentSwitched(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C39A2EC-CE14-4C46-9F19-DF8512928B3A - a70a08d0bd048eb9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserApp.WebsiteListVC.(model in _B9D0B6ADEE0A5CD0A7D9965298031649).getter : BrowserApp.WebsiteModel"
+                  moduleName = "BrowserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/BrowserApp/BrowserApp/WebsiteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "3C39A2EC-CE14-4C46-9F19-DF8512928B3A - 7482a6cdf3ff17b5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserApp.WebsiteListVC.(model in _B9D0B6ADEE0A5CD0A7D9965298031649).setter : BrowserApp.WebsiteModel"
+                  moduleName = "BrowserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/BrowserApp/BrowserApp/WebsiteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "259">
+               </Location>
+               <Location
+                  uuid = "3C39A2EC-CE14-4C46-9F19-DF8512928B3A - ec7dcc218fb11ce4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserApp.WebsiteListVC.(model in _B9D0B6ADEE0A5CD0A7D9965298031649).modify : BrowserApp.WebsiteModel"
+                  moduleName = "BrowserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/BrowserApp/BrowserApp/WebsiteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "3C39A2EC-CE14-4C46-9F19-DF8512928B3A - 5447051909113450"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserApp.WebsiteListVC.(model in _B9D0B6ADEE0A5CD0A7D9965298031649).modify : BrowserApp.WebsiteModel with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "BrowserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/BrowserApp/BrowserApp/WebsiteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "3C39A2EC-CE14-4C46-9F19-DF8512928B3A - cb88a59390a57cbf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserApp.WebsiteListVC.init(style: __C.UITableViewStyle) -&gt; BrowserApp.WebsiteListVC"
+                  moduleName = "BrowserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/BrowserApp/BrowserApp/WebsiteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  uuid = "3C39A2EC-CE14-4C46-9F19-DF8512928B3A - 58011a3c2c2ceb3d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserApp.WebsiteListVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BrowserApp.WebsiteListVC"
+                  moduleName = "BrowserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/BrowserApp/BrowserApp/WebsiteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "299">
+               </Location>
+               <Location
+                  uuid = "3C39A2EC-CE14-4C46-9F19-DF8512928B3A - 935861e1c5314ff9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserApp.WebsiteListVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BrowserApp.WebsiteListVC&gt;"
+                  moduleName = "BrowserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/BrowserApp/BrowserApp/WebsiteListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "219">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

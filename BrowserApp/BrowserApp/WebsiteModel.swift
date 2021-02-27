@@ -18,16 +18,8 @@ struct WebsiteModel {
     private var favWebsites: [Website] = [Website]()
     private lazy var totalWebsites = [websites, favWebsites]
     
-    mutating func getTotalWebsites() -> Array<[Website]> {
+    mutating func getTotalWebsites() -> [[Website]]  {
         return totalWebsites
-    }
-    
-    mutating func getAllWebsites() -> [Website] {
-        return totalWebsites[LIST_TABLE_VIEW_ID]
-    }
-    
-    mutating func getFavWebsites() -> [Website] {
-        return totalWebsites[FAVORITES_TABLE_VIEW_ID]
     }
     
     mutating func addWebsite(_ website: Website) {

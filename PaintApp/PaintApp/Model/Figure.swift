@@ -9,7 +9,8 @@
 import Foundation
 import UIKit
 
-class FigureClass{
+class Figure {
+    
     var color: UIColor
     var strokeWidth: CGFloat = 0.0
     var isFilled:Bool
@@ -19,5 +20,6 @@ class FigureClass{
         self.strokeWidth = strokeWidth
         self.isFilled = isFilled
     }
-    func drawPath(){}
+    
+    func draw(){}
 }
