@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "483ECF72-829F-40A7-BEB2-EF58A643C785"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E59274D-96A8-4885-985D-309188275F35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Midterm/Model/Alarm.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "Alarm"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4E59274D-96A8-4885-985D-309188275F35 - 2ed35d58a39f87a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Midterm.Alarm.deinit"
+                  moduleName = "Midterm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/Midterm/Midterm/Model/Alarm.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "4E59274D-96A8-4885-985D-309188275F35 - eb7c356fb3cc21b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Midterm.Alarm.__deallocating_deinit"
+                  moduleName = "Midterm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asikn/Desktop/ios_dev/Midterm/Midterm/Model/Alarm.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
