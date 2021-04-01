@@ -142,7 +142,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
             let annotation = MKPointAnnotation()
             annotation.title = place.name
             annotation.subtitle = place.desc
-            annotation.coordinate = CLLocationCoordinate2D(latitude: place.latitude,longitude:place.longitude)
+            annotation.coordinate = CLLocationCoordinate2D(latitude: place.latitude,longitude: place.longitude)
             self.myMap.addAnnotation(annotation)
         }
         self.myMap.showAnnotations(self.myMap.annotations, animated: true)

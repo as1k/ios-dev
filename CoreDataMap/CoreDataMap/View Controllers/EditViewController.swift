@@ -50,14 +50,4 @@ class EditViewController: UIViewController {
             navigationController?.popViewController(animated: true)
         }
     }
-    func loadPlaces()->[Place]{
-        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
-            let context = appDelegate.persistentContainer.viewContext
-            let fetchRequest = NSFetchRequest<Place>(entityName: "Place")
-            do {
-                try places = context.fetch(fetchRequest)
-            } catch{}
-        }
-        return places
-    }
 }
